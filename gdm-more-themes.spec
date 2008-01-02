@@ -10,6 +10,7 @@ Release:	%{release}
 Source0:	%{name}-%{version}.tar.bz2
 URL:		http://gnome-look.org/
 Group:		Graphical desktop/GNOME
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPL
 Requires:	gdm
 BuildArch:	noarch
