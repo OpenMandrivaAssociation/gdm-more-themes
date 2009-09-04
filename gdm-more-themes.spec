@@ -1,6 +1,6 @@
 %define	name	gdm-more-themes
 %define	version 0.5
-%define rel	2
+%define rel	3
 %define	release	%mkrel %rel
 
 Name:		%{name} 
