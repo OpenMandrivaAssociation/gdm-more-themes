@@ -1,7 +1,6 @@
 %define	name	gdm-more-themes
 %define	version 0.5
-%define rel	3
-%define	release	%mkrel %rel
+%define	release	%mkrel 4
 
 Name:		%{name} 
 Summary:	More themes for GDM
@@ -12,7 +11,7 @@ URL:		http://gnome-look.org/
 Group:		Graphical desktop/GNOME
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPL
-Requires:	gdm
+Requires:	gdm-220
 BuildArch:	noarch
 
 %description
