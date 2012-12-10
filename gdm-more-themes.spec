@@ -59,3 +59,46 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/gdm/themes/*
 
 
+
+
+%changelog
+* Fri Aug 06 2010 Götz Waschk <waschk@mandriva.org> 0.5-4mdv2011.0
++ Revision: 566867
+- depend on gdm-220 (bug #60506)
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.5-3mdv2010.0
++ Revision: 429188
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 2mdv2008.1-current
++ Revision: 140735
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Jan 04 2007 Eskild Hustvedt <eskild@mandriva.org> 0.5-2mdv2007.0
++ Revision: 104277
+- Fixed the permissions on the relaxing theme
+- Import gdm-more-themes
+
+* Sun Aug 20 2006 Eskild Hustvedt <eskild@mandriva.org> 0.5-1mdv2007.0
+- Added Avio-GDM and Relaxing
+
+* Fri Dec 16 2005 Eskild Hustvedt <eskild@mandriva.org> 0.4-1mdk
+- Added SolarSys Mars, SolarSys Saturn and LiNsta
+
+* Thu Nov 17 2005 Eskild Hustvedt <eskild@mandriva.org> 0.3-1mdk
+- Added the BlueSwirl, Raven, Insectz and GNU/Linux themes.
+
+* Sat Oct 29 2005 Eskild Hustvedt <eskild@mandriva.org> 0.2-2mdk
+- Remove lila themes
+- Really add the Tux Mania theme
+
+* Fri Oct 28 2005 Eskild Hustvedt <eskild@mandriva.org> 0.2-1mdk
+- Added Crop circles and Celtic_WXGA themes.
+
+* Sun Oct 23 2005 Eskild Hustvedt <eskild@mandrake.org> 0.1-1mdk
+- Initial Mandriva Linux package
+
